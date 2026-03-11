@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
 
     private Dictionary<string, UIInfo> uiDictionary;
 
-    // Referenzen 
+    // References 
     [Header("MainMenu")]
     public GameObject mainMenuUI;
     public GameObject mainMenuButtonContainer;
@@ -73,7 +73,7 @@ public class UIManager : MonoBehaviour
     {
         StartingState();
 
-        // Initialisierung des UI-Dictionarys
+        // Initialize UI Dictionary
         uiDictionary = new Dictionary<string, UIInfo>()
         {
             { "MainMenu", new UIInfo { uiName = "MainMenu", showMethod = ShowMainMenuUI, hideMethod = HideMainMenuUI } },
@@ -91,7 +91,7 @@ public class UIManager : MonoBehaviour
         HideGameOverScreenUI();
     }
 
-    // Methode zum Anzeigen des gewünschten UIs
+    // Method to display specific UIs per string
     public void ShowUI(string uiName)
     {
         if (uiDictionary.ContainsKey(uiName))
@@ -105,7 +105,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // Methode zum Ausblenden des gewünschten UIs
+    // Method to hide specific UIs per string
     public void HideUI(string uiName)
     {
         if (uiDictionary.ContainsKey(uiName))
@@ -119,8 +119,8 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    //SHOW METHODEN//
-    // Methoden zum Anzeigen der einzelnen UIs
+    //SHOW METHODS//
+    // Unique Methods to display specific UIs
 
     private void ShowMainMenuUI()
     {
@@ -146,8 +146,8 @@ public class UIManager : MonoBehaviour
         gameOverScreenUI.SetActive(true);
     }
 
-    //HIDE METHODEN//
-    // Methoden zum Ausblenden der einzelnen UIs
+    //HIDE METHODS//
+    //  Unique Methods to hide specific UIs
 
     private void HideMainMenuUI()
     {
@@ -172,4 +172,5 @@ public class UIManager : MonoBehaviour
         isGameOverScreenActive = false;
         gameOverScreenUI.SetActive(false);
     }
+
 }
