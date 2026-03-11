@@ -8,7 +8,7 @@ public class RefManagerUI : MonoBehaviour
 {
     private static RefManagerUI instance;
 
-    [Header("Refernces")]
+    [Header("References")]
     public InitializeSystem init;
 
     private void Awake()
@@ -219,3 +219,4 @@ public class RefManagerUI : MonoBehaviour
         }
     }
 }
+
