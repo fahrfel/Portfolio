@@ -2,7 +2,9 @@
 
 # Unity Framework – Strukturprojekt
 
-Dieses Repository enthält ein persönliches Lern- und Strukturprojekt, das ich im Rahmen meiner Beschäftigung mit Programmierung in **C#** und der **Unity Engine** entwickelt habe.
+Dieses Repository enthält ein persönliches Lern- und Strukturprojekt, das ich im Rahmen meiner Beschäftigung mit Programmierung in C# und der Unity Engine entwickelt habe.
+
+Im Laufe meiner eigenen Projekte – darunter unter anderem kleinere Prototypen wie ein 2D-Sidescroller, ein Top-Down-Spiel und ein Tower-Defense-Konzept – habe ich verschiedene Gameplay-Mechaniken und Skriptstrukturen ausprobiert und umgesetzt.
 
 Die Idee dahinter war, ein wiederverwendbares Grundgerüst zu erstellen, das es mir erlaubt, neue Projektideen schneller aufzusetzen und dabei von Anfang an eine klare und nachvollziehbare Struktur im Code zu behalten.
 
